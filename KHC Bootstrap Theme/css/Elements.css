@@ -33,7 +33,7 @@ body {
 
 .top-nav-green .nav-pills > li > a:hover, .top-nav-green .nav-pills > li > a:active, .top-nav-green .nav-pills> li > a:active {
     color: #61BB46;
-    backround-color: #FFFFFF;
+    background-color: #FFFFFF;
 }
 
 .top-nav-green .nav-pills .open > a:focus {
@@ -156,8 +156,10 @@ body {
     #news-tabs {min-width: 240px; max-width: 400px; width: 100%; padding: 0px; margin: 20px 0px 0px 0px;}
     .program-links-square {height: 175px; width: 175px; background: #FFFFFF; float: left; padding: 5px; margin: 10px;}
     .program-links-square > .list-group {visibility: hidden; display: none;}
-    .program-links-square > h4 {text-align: center;}
+    .program-links-square > h4 {visibility: hidden; display: none;}
     .program-links-square > a.btn {all: none;}
-    .program-links-square > a.btn-default:link, a.btn-default:hover, a.btn-default:active, a.btn-default:focus, a.btn-default:visited {all: none; height: 175px; width: 175px; background: blue;}
+    .program-links-square > a.btn-default:link, a.btn-default:hover, a.btn-default:active, a.btn-default:focus, a.btn-default:visited {all: none; height: 175px; width: 175px; margin: -5px -5px 0px 0px; background: blue;}
     .programs-more {visibility: hidden; height: 175px; width: 175px;}
+    .program-links-square-mobile {visibility:visible; display: normal;}
+    .program-links-square-mobile > h4 {text-align: center; padding-top: -175px;}
 }
