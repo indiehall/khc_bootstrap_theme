@@ -148,6 +148,12 @@ body {
     width: 100px;
 }
 
+.program-links-square-mobile {
+    visibility: hidden;
+    height: 0px;
+    width: 0px;
+}
+
 /* Mobile Additions Below */
 
 @media only screen and (max-device-width: 500px) {
@@ -158,8 +164,8 @@ body {
     .program-links-square > .list-group {visibility: hidden; display: none;}
     .program-links-square > h4 {visibility: hidden; display: none;}
     .program-links-square > a.btn {all: none;}
-    .program-links-square > a.btn-default:link, a.btn-default:hover, a.btn-default:active, a.btn-default:focus, a.btn-default:visited {all: none; height: 175px; width: 175px; margin: -5px -5px 0px 0px; background: blue;}
+    .program-links-square > a.btn-default:link, a.btn-default:hover, a.btn-default:active, a.btn-default:focus, a.btn-default:visited {position: relative; float: left; height: 175px; width: 175px; margin: -5px 0px 0px -5px; background: none; z-index: 100;}
     .programs-more {visibility: hidden; height: 175px; width: 175px;}
-    .program-links-square-mobile {visibility:visible; display: normal;}
-    .program-links-square-mobile > h4 {text-align: center; padding-top: -175px;}
+    .program-links-square-mobile {visibility: visible; display: normal; height: 175px; width: 175px; margin-bottom: -185px;}
+    .program-links-square-mobile > h4 {text-align: center;}
 }
