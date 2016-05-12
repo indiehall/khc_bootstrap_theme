@@ -1,0 +1,16 @@
+primary: #158cba - background; #127ba3 - border  ---->  #1558c8 - background; #003aa3 - border
+	#106a8c ; #0c516c ----> #003aa3 ; #002a7c
+
+success: #28b62c - background; #23a127 - border  ---->  #61bb46 - background; #32911b - border
+	#1f8c22 ; #186f1b ----> #32911b ; #006200
+
+info: #75caeb - background; #5fc1e8 - border
+
+warning: #ff851b - background; #ff7701
+
+danger: #ff4136 - background; ff291c
+
+link: #158cba - text  ---->  #1558c8 - text
+
+45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent
+45deg, rgba(255, 255, 255, 0.05) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.05) 50%, rgba(255, 255, 255, 0.05) 75%, transparent 75%, transparent

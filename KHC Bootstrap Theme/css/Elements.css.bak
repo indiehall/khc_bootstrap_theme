@@ -1,0 +1,54 @@
+.top-nav-green {
+    background-color: #61BB46;
+    color: #ffffff;
+}
+
+.top-nav-green .navbar-nav > li > a, .top-nav-green .navbar-nav > li  {
+    list-style: none;
+    color: #ffffff;
+    padding-right: 10px;
+}
+
+.top-nav-green .navbar-nav > li > a:hover, .top-nav-green .navbar-nav > li > a:active, .top-nav-green .navbar-nav > li > a:active {
+    color: #ffffff;
+}
+
+.top-nav-green .navbar-nav .open > a:focus {
+    color: #ffffff;
+}
+
+.top-nav-green .navbar-nav .active > a {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.top-nav-green .navbar-nav .active > a:hover, .top-nav-green .navbar-nav .active > a:active {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.top-nav-white-btn > a {
+    color: #61BB46;
+    background-color: #ffffff;
+    border-color: #eeeeee;
+}
+
+.top-nav-white-btn > .btn-circle:hover {
+    color: #ffffff;
+    background-color: #61BB46;
+    border-color: #32911b;
+}
+
+.top-nav-white-btn > .btn-circle:active, .btn-circle:focus {
+    color: #ffffff;
+    background-color: #32911b;
+    border-color: #0c390e;
+}
+
+.navbar-bottom {
+    min-height: 100px;
+    margin-top: 100px;
+    background-color: #C5E0A6;
+    padding-top: 35px;
+    color: #000000;
+}
