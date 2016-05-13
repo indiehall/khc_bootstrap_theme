@@ -175,6 +175,10 @@ body {
 /* Mobile Additions Below */
 
 @media only screen and (max-device-width: 500px) {
+    .navbar-default, div.navbar-collapse, .navbar-form {border-top: none; box-shadow: none; border-bottom: none;}
+    #site-search > .form-group {max-width: 345px;}
+    #site-search > .btn-success {float: right; margin-top: -45px;}
+
     #news-info-widget {margin-top: 20px;}
     #news-info-widget > .rotator {width: 700px; padding: 0px;}
     #news-tabs {min-width: 240px; max-width: 400px; width: 100%; padding: 0px; margin: 20px 0px 0px 0px;}
@@ -186,6 +190,6 @@ body {
     .program-links-square > a.btn-default:link, a.btn-default:hover, a.btn-default:active, a.btn-default:focus, a.btn-default:visited {position: relative; float: left; height: 175px; width: 175px; margin: -5px 0px 0px -5px; background: none; z-index: 100;}
     .programs-more {visibility: hidden; height: 175px; width: 175px;}
     .program-links-square-mobile {visibility: visible; display: normal; height: 175px; width: 175px; margin: 0px 0px -185px -5px;}
-    .program-links-square-mobile > h4 {text-align: center;}
+    .program-links-square-mobile > h4 {text-align: center; font-weight: bold;}
     .program-icon-mobile {max-height: 100px; max-width: 100px; vertical-align:middle; margin: -30px 0px 0px 38px;}
     #equal-housing-icon {float: right; margin-top: -40px; width: 40px;}
