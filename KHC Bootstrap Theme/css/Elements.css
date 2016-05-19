@@ -178,6 +178,7 @@ body {
     .navbar-default, div.navbar-collapse, .navbar-form {border-top: none; box-shadow: none; border-bottom: none;}
     #site-search > .form-group {max-width: 345px;}
     #site-search > .btn-success {float: right; margin-top: -45px;}
+    div .top-nav-white-btn {visibility: hidden; display: none;}
 
     #news-info-widget {margin-top: 20px;}
     #news-info-widget > .rotator {width: 700px; padding: 0px;}
