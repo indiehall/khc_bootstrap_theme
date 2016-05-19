@@ -82,6 +82,10 @@ body {
     color: #000000;
 }
 
+#menu-collapse {
+    visibility: hidden;
+}
+
 #equal-housing-icon {
     float: right;
     margin-top: -60px;
@@ -176,13 +180,14 @@ body {
 
 @media only screen and (max-device-width: 500px) {
     .navbar-default, div.navbar-collapse, .navbar-form {border-top: none; box-shadow: none; border-bottom: none;}
-    #site-search > .form-group {max-width: 345px;}
-    #site-search > .btn-success {float: right; margin-top: -45px;}
+    #menu-collapse {visibility:visible; margin: -15px 0px 15px 0px;}
+    #site-search > .form-group {max-width: 300px; margin: 0px 0px -100px 50px;}
+    #site-search > .btn-success {float: right; margin: 60px 0px 0px 0px;}
     div .top-nav-white-btn {visibility: hidden; display: none;}
-
     #news-info-widget {margin-top: 20px;}
     #news-info-widget > .rotator {width: 700px; padding: 0px;}
     #news-tabs {min-width: 240px; max-width: 400px; width: 100%; padding: 0px; margin: 20px 0px 0px 0px;}
+    #navbar-site-links {overflow:visible;}
     .program-links-square {height: 175px; width: 175px; background: #FFFFFF; float: left; padding: 5px; margin: 10px;}
     .program-links-square > .list-group {visibility: hidden; display: none;}
     .program-links-square > h4 {visibility: hidden; display: none;}
@@ -193,4 +198,5 @@ body {
     .program-links-square-mobile {visibility: visible; display: normal; height: 175px; width: 175px; margin: 0px 0px -185px -5px;}
     .program-links-square-mobile > h4 {text-align: center; font-weight: bold;}
     .program-icon-mobile {max-height: 100px; max-width: 100px; vertical-align:middle; margin: -30px 0px 0px 38px;}
+    #footer-quicklinks > div.list-group > a.list-group-item > img {max-width: 250px;}
     #equal-housing-icon {float: right; margin-top: -40px; width: 40px;}
