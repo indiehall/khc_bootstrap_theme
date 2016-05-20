@@ -267,12 +267,15 @@
                 <a class="btn btn-default" href="#"><span class="programs-more">More <span class="fa fa-arrow-circle-o-right"></span></span></a>
             </div><!-- Program 6 -->
         </div>
-        <div id="success-story-widget">
-            <a href="#" class="btn btn-xl btn-circle btn-default" id="success-more-btn"><span class="fa fa-arrow-circle-o-right"></span></a>
+        <div id="success-story-widget" class="transparent-panel-white">
+            <a href="#" class="btn btn-default btn-circle btn-xl" id="success-more-btn"><span class="fa fa-arrow-circle-o-right"></span></a>
             <div id="success-slide">
-                <div class="success-story-item">
+                <a class="success-story-item" href="#">
                     <img src="http://placehold.it/200x200" alt="...">
-                </div>
+                    <span class="success-story-text">
+                        <span>Text</span>
+                    </span>
+                </a>
                 <div class="success-story-item">
                     <img src="http://placehold.it/200x200" alt="...">
                 </div>
@@ -286,7 +289,7 @@
         </div>
 
     </div><!-- Page content goes here -->
-    <div class="navbar navbar-bottom">
+    <div class="navbar navbar-bottom transparent-panel-white">
         <div class="container">
             <div class="container">
                 <h4>Quick Links</h4>
@@ -337,6 +340,7 @@
     <script src="../js/npm.js"></script>
     <script src="../js/custom.js"></script>
     <script type="text/javascript">/* <![CDATA[ */(function (d, s, a, i, j, r, l, m, t) { try { l = d.getElementsByTagName('a'); t = d.createElement('textarea'); for (i = 0; l.length - i; i++) { try { a = l[i].href; s = a.indexOf('/cdn-cgi/l/email-protection'); m = a.length; if (a && s > -1 && m > 28) { j = 28 + s; s = ''; if (j < m) { r = '0x' + a.substr(j, 2) | 0; for (j += 2; j < m && a.charAt(j) != 'X'; j += 2) s += '%' + ('0' + ('0x' + a.substr(j, 2) ^ r).toString(16)).slice(-2); j++; s = decodeURIComponent(s) + a.substr(j, m - j) } t.innerHTML = s.replace(/</g, '<').replace(/>/g, '>'); l[i].href = 'mailto:' + t.value } } catch (e) { } } } catch (e) { } })(document);/* ]]> */</script>
+    <script type="text/javascript">$(function () {$('[data-toggle="tooltip"]').tooltip()})</script>
 
 </body>
 </html>
