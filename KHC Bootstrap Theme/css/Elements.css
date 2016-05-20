@@ -183,7 +183,7 @@ body {
 
 #success-story-widget {
     width: 1130px;
-    height: 300px;
+    height: 310px;
     background-color: #ffffff;
     background: rgba(255, 255, 255, .7);
     float: right;
@@ -192,17 +192,23 @@ body {
     overflow: hidden;
 }
 
-#success-slide {
+    #success-story-widget > h4 {
+        margin: -30px 0px 10px -30px;
+    }
+
+ul#success-slide {
     height: 200px;
+    list-style-type: none;
+    margin-left: -35px;
 }
 
-.success-story-item {
+li.success-story-item {
     display: inline-block;
     height: 200px;
     width: 200px;
     margin-right: 50px;
-    list-style-type: none;
     text-align: center;
+    position: relative;
 }
 
 span.success-story-text {
@@ -211,11 +217,11 @@ span.success-story-text {
     color: white;
     cursor: pointer;
     display: table;
-    height: 150px;
+    height: 200px;
     left: 0;
     position: absolute;
     top: 0;
-    width: 150px;
+    width: 200px;
     opacity: 0;
     -webkit-transition: opacity 500ms;
     -moz-transition: opacity 500ms;
@@ -229,7 +235,7 @@ span.success-story-text span {
     vertical-align: middle;
 }
 
-div.success-slide a:hover span.success-story-text {
+ul#success-slide a:hover span.success-story-text {
     opacity: 1;
 }
 
@@ -239,7 +245,7 @@ div.success-slide a:hover span.success-story-text {
     float: right;
     position: relative;
     z-index: 1000;
-    margin: 75px -20px -150px -50px;
+    margin: 65px -25px -150px -50px;
 }
 
 #success-more-btn:active, #success-more-btn:focus {
