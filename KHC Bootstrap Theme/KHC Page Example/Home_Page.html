@@ -1,0 +1,364 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Bootstrap Example - KHC Redesign</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="../css/KHC_bootstrap.css" media="screen">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/Elements.css">
+    <link rel="stylesheet" href="../css/fonts/candara.css">
+    <link rel="stylesheet" href="../css/fonts/calibri.css">
+</head>
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top top-nav-green" role="navigation">
+        <div class="container">
+            <div class="container-static">
+                <div class="navbar-header navbar-left">
+                    <a class="navbar-brand" href="#">
+                        <img alt="Kentucky Housing Corporation" src="../img/KHC_Logo_Header.png" height="31" width="382">
+                    </a>
+                </div><!-- KHC Header Logo -->
+                <div>
+                    <form id="site-search" class="navbar-form navbar-right" role="search">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Search">
+                        </div>
+                        <button type="submit" class="btn btn-success"><span class="fa fa-search" role="button" aria-hidden="true"></span></button>
+                    </form>
+                </div><!-- Search Field and Button -->
+                <button type="button" id="menu-collapse" class="navbar-toggler collapsed btn btn-default" data-toggle="collapse" data-target="#navbar-site-links" aria-expanded="false"><span class="fa fa-bars" role="button" aria-hidden="true"></span></button>
+            </div><!-- Top Half of Navbar -->
+            <div class="container">
+                <div id="navbar-site-links" class="collapse navbar-collapse">
+                    <ul class="nav nav-pills navbar-left">
+                        <li><a href="#">Home<span class="sr-only">(current)</span></a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">About <span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="#">Overview</a></li>
+                                <li><a href="#">Board of Directors</a></li>
+                                <li><a href="#">Careers</a></li>
+                                <li><a href="#">Leadership Corner</a></li>
+                                <li><a href="#">Legal</a></li>
+                                <li><a href="#">Request For</a></li>
+                                <li><a href="#">Our History</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Resources <span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="#">Overview</a></li>
+                                <li><a href="#">Data Library</a></li>
+                                <li><a href="#">Partners</a></li>
+                                <li><a href="#">Planning Documents</a></li>
+                                <li><a href="#">Residential Energy Efficiency</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">News/Events <span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="#">Overview</a></li>
+                                <li><a href="#">Corp Calendar</a></li>
+                                <li><a href="#">Conference</a></li>
+                                <li><a href="#">Corporate Identity</a></li>
+                                <li><a href="#">Corporate Fact Sheet</a></li>
+                                <li><a href="#">Event Request Form</a></li>
+                                <li><a href="#">Press Releases</a></li>
+                                <li><a href="#">eGram Archives</a></li>
+                                <li><a href="#">Success Stories</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Systems <span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="#">Make a Payment</a></li>
+                                <li><a href="#">KY Green</a></li>
+                                <li><a href="#">Universal Funding Application</a></li>
+                                <li><a href="#">Program Funding Draw Management System</a></li>
+                                <li><a href="#">TDCS</a></li>
+                                <li><a href="#">CA WebTRACS</a></li>
+                                <li><a href="#">Rental Portals</a></li>
+                                <li><a href="#">KYHMIS</a></li>
+                                <li><a href="#">HCA Help Desk</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Español</a></li>
+                        <li role="separator" class="divider"></li>
+                    </ul>
+                    <div class="top-nav-white-btn navbar-right">
+                        <a type="button" class="btn btn-default btn-circle" href="#"><span class="glyphicon glyphicon-envelope"></span></a>
+                        <a type="button" class="btn btn-default btn-circle" href="#"><span class="fa fa-facebook"></span></a>
+                        <a type="button" class="btn btn-default btn-circle" href="#"><span class="fa fa-google-plus"></span></a>
+                        <a type="button" class="btn btn-default btn-circle" href="#"><span class="fa fa-twitter"></span></a>
+                        <a type="button" class="btn btn-default btn-circle" href="#"><span class="fa fa-youtube-play"></span></a>
+                    </div><!-- White Social Media Buttons -->
+                </div><!-- Navbar Buttons -->
+            </div><!-- Bottom Half of Navbar -->
+        </div><!-- Container to center align navbar content -->
+    </nav><!-- Sticky Navbar (Every page) -->
+    <br><br><br><br><br>
+    <div class="container">
+
+        <div class="news-info-widget">
+            <div id="carousel-slide" class="rotator carousel slide  pull-left" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#courosel-slide" data-slide-to="0" class="active"></li>
+                    <li data-target="#courosel-slide" data-slide-to="1"></li>
+                    <li data-target="#courosel-slide" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img src="http://placehold.it/700x500" alt="...">
+                    </div>
+                    <div class="item">
+                        <img src="http://placehold.it/700x500" alt="...">
+                    </div>
+                    <div class="item">
+                        <img src="http://placehold.it/700x500" alt="...">
+                    </div>
+                </div>
+
+                <a class="left carousel-control" href="#carousel-slide" role="button" data-slide="prev">
+                    <span class="fa fa-chevron-left"></span>
+                </a>
+                <a class="right carousel-control" href="#carousel-slide" role="button" data-slide="next">
+                    <span class="fa fa-chevron-right"></span>
+                </a><!-- Controls -->
+
+            </div><!-- Carousel for Banners -->
+
+            <div id="news-tabs" class="pull-right">
+                <ul class="nav nav-tabs">
+                    <li class="active"><a href="#news" data-toggle="tab">What's New?</a></li>
+                    <li class=""><a href="#rates" data-toggle="tab">Today's Rates</a></li>
+                </ul>
+                <div id="news-tab" class="tab-content">
+                    <div class="tab-pane fade active in" id="news">
+                        <div class="list-group">
+                            <a href="#" class="list-group-item">
+                                <h4 class="list-group-item-heading">List group item heading</h4>
+                                <p class="list-group-item-text">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+                            </a>
+                            <a href="#" class="list-group-item">
+                                <h4 class="list-group-item-heading">List group item heading</h4>
+                                <p class="list-group-item-text">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+                            </a>
+                            <a href="#" class="list-group-item">
+                                <h4 class="list-group-item-heading">List group item heading</h4>
+                                <p class="list-group-item-text">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+                            </a>
+                            <a href="#" class="list-group-item">
+                                <h4 class="list-group-item-heading">List group item heading</h4>
+                                <p class="list-group-item-text">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+                            </a>
+                            <a href="#" class="list-group-item">
+                                <h4 class="list-group-item-heading">List group item heading</h4>
+                                <p class="list-group-item-text">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="rates">
+                        <div class="alert alert-warning">
+                            <p>Rates subject to change without notice.</p>
+                        </div>
+                        <h4>Scondary Market Interest Rates - 45 Day Lock</h4>
+                        <table class="table table-hover table-condensed">
+                            <thead>
+                                <tr>
+                                    <th>Loan Type</th>
+                                    <th>Rate <i>without</i> Down Payment Assistance</th>
+                                    <th>Rate <i>with</i> Down Payment Assistance</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>FHA, VA & RHS</td>
+                                    <td>3.75%</td>
+                                    <td>4.00%</td>
+                                </tr>
+                                <tr>
+                                    <td>Conventional With MI</td>
+                                    <td>4.25%</td>
+                                    <td>4.50%</td>
+                                </tr>
+                                <tr>
+                                    <td>Conventional No MI</td>
+                                    <td>4.75%</td>
+                                    <td>5.00%</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <a href="#" class="btn btn-primary">Click here for full rate list</a>
+                    </div>
+                </div>
+            </div><!-- News -->
+        </div>
+        <div id="program-links-widgets">
+            <div class="program-links-square">
+                <div class="program-icon"><img src="../img/homepage_icons/1-MyAccount-Mobile.png" alt="Access your KHC account."></div>
+                <h4>My Account</h4>
+                <div class="list-group">
+                    <a href="#" class="list-group-item">Make A Payment</a>
+                    <a href="#" class="list-group-item">Frequently Asked Questions (FAQs)</a>
+                    <a href="#" class="list-group-item">Resources</a>
+                    <a href="#" class="list-group-item">Taxes, Insurance, and Other Info</a>
+                </div>
+                <div class="program-links-square-mobile"><h4>My Account</h4><br /><img class="program-icon-mobile account" src="../img/homepage_icons/1-MyAccount-Mobile.png" alt=""></div>
+                <a class="btn btn-default" href="#"><span class="programs-more">More <span class="fa fa-arrow-circle-o-right"></span></span></a>
+            </div><!-- Program 1 -->
+            <div class="program-links-square">
+                <div class="program-icon"><img src="../img/homepage_icons/2-HomeBuyers-Mobile.png" alt="View information about home buying."></div>
+                <h4>Home Buyers</h4>
+                <div class="list-group">
+                    <a href="#" class="list-group-item">Home Buyer Education</a>
+                    <a href="#" class="list-group-item">Home Buying Guide</a>
+                    <a href="#" class="list-group-item">Loan Programs</a>
+                    <a href="#" class="list-group-item">Down Payment and Closing Cost Assistance</a>
+                </div>
+                <div class="program-links-square-mobile"><h4>Home Buyers</h4><br /><img class="program-icon-mobile homebuyers" src="../img/homepage_icons/2-HomeBuyers-Mobile.png" alt=""></div>
+                <a class="btn btn-default" href="#"><span class="programs-more">More <span class="fa fa-arrow-circle-o-right"></span></span></a>
+            </div><!-- Program 2 -->
+            <div class="program-links-square">
+                <div class="program-icon"><img src="../img/homepage_icons/3-Rental-Mobile.png" alt="View information about renting an apartment."></div>
+                <h4>Rental</h4>
+                <div class="list-group">
+                    <a href="#" class="list-group-item">Assisted Rental Housing Reports</a>
+                    <a href="#" class="list-group-item">Kentucky Rents</a>
+                    <a href="#" class="list-group-item">Housing Assistance Payments (HAP)</a>
+                </div>
+                <div class="program-links-square-mobile"><h4>Rental</h4><br /><img class="program-icon-mobile rental" src="../img/homepage_icons/3-Rental-Mobile.png" alt=""></div>
+                <a class="btn btn-default" href="#"><span class="programs-more">More <span class="fa fa-arrow-circle-o-right"></span></span></a>
+            </div><!-- Program 3 -->
+            <div class="program-links-square">
+                <div class="program-icon"><img src="../img/homepage_icons/4-Development-Mobile.png" alt="View information for housing unit and project developers."></div>
+                <h4>Development</h4>
+                <div class="list-group">
+                    <a href="#" class="list-group-item">Multifamily</a>
+                    <a href="#" class="list-group-item">Guidelines and Qualified Allocation Plan (QAP)</a>
+                    <a href="#" class="list-group-item">Single-Family</a>
+                </div>
+                <div class="program-links-square-mobile"><h4>Development</h4><br /><img class="program-icon-mobile development" src="../img/homepage_icons/4-Development-Mobile.png" alt=""></div>
+                <a class="btn btn-default" href="#"><span class="programs-more">More <span class="fa fa-arrow-circle-o-right"></span></span></a>
+            </div><!-- Program 4 -->
+            <div class="program-links-square">
+                <div class="program-icon"><img src="../img/homepage_icons/5-SpecializedHousing-Mobile.png" alt="View more information about KHC's speciliazed housing programs."></div>
+                <h4>Specialized Hsg.</h4>
+                <div class="list-group">
+                    <a href="#" class="list-group-item">Program Descriptions</a>
+                    <a href="#" class="list-group-item">Community Resource Guide</a>
+                    <a href="#" class="list-group-item">KY Homeless Management Information System (KYHMIS)</a>
+                </div>
+                <div class="program-links-square-mobile"><h4>Specialized Hsg.</h4><br /><img class="program-icon-mobile specializedhsg" src="../img/homepage_icons/5-SpecializedHousing-Mobile.png" alt=""></div>
+                <a class="btn btn-default" href="#"><span class="programs-more">More <span class="fa fa-arrow-circle-o-right"></span></span></a>
+            </div><!-- Program 5 -->
+            <div class="program-links-square">
+                <div class="program-icon"><img src="../img/homepage_icons/6-Lenders-Mobile.png" alt="View information about lenders, loan rates, and loan forms."></div>
+                <h4>Lenders</h4>
+                <div class="list-group">
+                    <a href="#" class="list-group-item">KHC Approved Lenders</a>
+                    <a href="#" class="list-group-item">Lender Resources</a>
+                    <a href="#" class="list-group-item">Loan Reservation</a>
+                    <a href="#" class="list-group-item">KHC Top Lenders</a>
+                </div>
+                <div class="program-links-square-mobile"><h4>Lenders</h4><br /><img class="program-icon-mobile lenders" src="../img/homepage_icons/6-Lenders-Mobile.png" alt=""></div>
+                <a class="btn btn-default" href="#"><span class="programs-more">More <span class="fa fa-arrow-circle-o-right"></span></span></a>
+            </div><!-- Program 6 -->
+        </div>
+        <div id="success-story-widget" class="transparent-panel-white">
+            <h4>Success Stories</h4>
+            <a href="#" class="btn btn-default btn-circle btn-xl" id="success-more-btn"><span class="fa fa-arrow-circle-o-right"></span></a>
+            <ul id="success-slide">
+                <li class="success-story-item">
+                    <a href="#">
+                        <img src="http://placehold.it/200x200" alt="...">
+                        <span class="success-story-text">
+                            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tincidunt mi eget ex sollicitudin rutrum.<br /><br /><span class="btn btn-success programs-more">Read More</span></span>
+                        </span>
+                    </a>
+                </li>
+                <li class="success-story-item">
+                    <a href="#">
+                        <img src="http://placehold.it/200x200" alt="...">
+                        <span class="success-story-text">
+                            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tincidunt mi eget ex sollicitudin rutrum.<br /><br /><span class="btn btn-success programs-more">Read More</span></span>
+                        </span>
+                    </a>
+                </li>
+                <li class="success-story-item">
+                    <a href="#">
+                        <img src="http://placehold.it/200x200" alt="...">
+                        <span class="success-story-text">
+                            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tincidunt mi eget ex sollicitudin rutrum.<br /><br /><span class="btn btn-success programs-more">Read More</span></span>
+                        </span>
+                    </a>
+                </li>
+                <li class="success-story-item">
+                    <a href="#">
+                        <img src="http://placehold.it/200x200" alt="...">
+                        <span class="success-story-text">
+                            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tincidunt mi eget ex sollicitudin rutrum.<br /><br /><span class="btn btn-success programs-more">Read More</span></span>
+                        </span>
+                    </a>
+                </li>
+            </ul><!-- Container for Success Stories -->
+        </div>
+
+    </div><!-- Page content goes here -->
+    <div class="navbar navbar-bottom transparent-panel-white">
+        <div class="container">
+            <div class="container">
+                <h4>Quick Links</h4>
+                <div class="list-group navbar-left">
+                    <a href="#" class="list-group-item">Make a Payment</a>
+                    <a href="#" class="list-group-item">Corporate Calendar</a>
+                    <a href="#" class="list-group-item">Asset Management</a>
+                    <a href="#" class="list-group-item">Fair Housing</a>
+                    <a href="#" class="list-group-item">KY Green</a>
+                    <a href="#" class="list-group-item">Universal Funding Application</a>
+                    <a href="#" class="list-group-item">Program Funding Draw Management System</a>
+                    <a href="#" class="list-group-item">TDCS</a>
+                    <a href="#" class="list-group-item">CA WebTRACS</a>
+                    <a href="#" class="list-group-item">Rental Portals</a>
+                    <a href="#" class="list-group-item">Contact Us</a>
+                </div><!-- Left Footer -->
+                <div class="navbar-right">
+                    <div class="">
+                        <ul class="nav nav-pills">
+                            <li><a href="#">Sitemap</a></li>
+                            <li><a href="#">Fraud Policy</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Legal Notices</a></li>
+                            <li><a href="#">Open Records</a></li>
+                        </ul>
+                    </div>
+                    <div id="footer-quicklinks">
+                        <div class="list-group">
+                            <a href="#" class="list-group-item"><img src="http://www.kyhousing.org/PublishingImages/ProtCtr_Horiz_MainLogo.jpg" alt="Kentucky Homeownership Protection Center" /></a>
+                            <a href="#" class="list-group-item"><img src="http://www.kyhousing.org/style%20library/Images/kh/khpcolor.jpg" alt="KY Home Performace" /></a>
+                            <a href="#" class="list-group-item"><img src="http://www.kyhousing.org/style%20library/Images/kh/egram.png" alt="KHC eGrams" /></a>
+                            <a href="#" class="list-group-item"><img src="http://www.kyhousing.org/Style%20Library/Images/kh/REE%20Logo%20-%20Color%20-%20Web.png" alt="Residential Energy Efficiency" /></a>
+                        </div>
+                    </div>
+                </div><!-- Right Footer -->
+            </div>
+            <p>For more information, contact:</p>
+            <p>
+                Kentucky Housing Corporation | 1231 Louisville Rd., Frankfort, KY 40601<br>
+                502-564-7630; 800-633-8896 (KY only); TTY 711<br>
+            </p>
+            <p class="bold">© 2016 Kentucky Housing Corporation</p>
+            <img id="equal-housing-icon" src="../img/Equal.png" alt="Equal Housing Lender" />
+        </div>
+    </div><!-- Footer (Every page)-->
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/npm.js"></script>
+    <script src="../js/custom.js"></script>
+    <script type="text/javascript">/* <![CDATA[ */(function (d, s, a, i, j, r, l, m, t) { try { l = d.getElementsByTagName('a'); t = d.createElement('textarea'); for (i = 0; l.length - i; i++) { try { a = l[i].href; s = a.indexOf('/cdn-cgi/l/email-protection'); m = a.length; if (a && s > -1 && m > 28) { j = 28 + s; s = ''; if (j < m) { r = '0x' + a.substr(j, 2) | 0; for (j += 2; j < m && a.charAt(j) != 'X'; j += 2) s += '%' + ('0' + ('0x' + a.substr(j, 2) ^ r).toString(16)).slice(-2); j++; s = decodeURIComponent(s) + a.substr(j, m - j) } t.innerHTML = s.replace(/</g, '<').replace(/>/g, '>'); l[i].href = 'mailto:' + t.value } } catch (e) { } } } catch (e) { } })(document);/* ]]> */</script>
+    <script type="text/javascript">$(function () { $('[data-toggle="tooltip"]').tooltip() })</script>
+
+</body>
+</html>
