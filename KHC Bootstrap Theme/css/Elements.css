@@ -122,6 +122,14 @@ body {
     color: #777777;
 }
 
+#news a:nth-child(even) {
+  background-color: #fafafa;
+}
+
+#news a:nth-child(even):hover {
+  background-color: #EEEEEE;
+}
+
 #news-tabs .nav-tabs a:hover {
     color: #000000;
 }
@@ -209,6 +217,21 @@ li.success-story-item {
     margin-right: 50px;
     text-align: center;
     position: relative;
+    align-content: center;
+    overflow: hidden;
+}
+
+li.success-story-item img {
+    height: 200px;
+}
+
+span.success-story-title {
+    float: right;
+    position: relative;
+    margin:-30px 10px 0px 0px;
+    color: white;
+    text-shadow: 0px 2px 4px black;
+    text-align: right;
 }
 
 span.success-story-text {
