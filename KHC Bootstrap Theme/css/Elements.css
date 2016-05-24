@@ -151,6 +151,15 @@ body {
     padding: 10px;
 }
 
+#carousel-slide > ol.carousel-indicators{
+    bottom: 0px;
+}
+
+#carousel-slide > a.carousel-control {
+    background: none;
+    width: 8%;
+}
+
 #program-links-widgets {
     margin-top: 20px;
     padding: 0px;
