@@ -201,7 +201,7 @@ body {
 }
 
     #success-story-widget > h4 {
-        margin: -30px 0px 10px -30px;
+      margin: -30px 0px 10px -30px;
     }
 
 ul#success-slide {
@@ -306,17 +306,29 @@ ul#success-slide a:hover span.success-story-text {
 }
 
 #program-links-nav {
-    height: 40px;
+    height: 43px;
     width: 100%;
     background: rgb(255, 255, 255); 
     background: rgba(255, 255, 255, .9) !important;
-    margin-top: -40px; /*Keep the same as the height of the nav to properly overlay.*/
+    margin-top: -43px; /*Keep the same as the height of the nav to properly overlay.*/
     position: relative;
     z-index: 100;
 }
 
+#program-links-nav > a {
+    color: #000000;
+}
+
+#program-links-nav > a:hover {
+    background-color: #FFFFFF;
+}
+
 #program-links-nav > a.active {
     background-color: #FFFFFF;
+    border: 0px none;
+    box-shadow: 0px 1px 2px rgb(185, 185, 185);
+    box-shadow: 0px 1px 2px rgba(0,0,0,0.2);
+    /*font-weight: bolder;*/
 }
 
 #program-links-nav > a > img {
@@ -340,6 +352,7 @@ ul#success-slide a:hover span.success-story-text {
     margin: 0px;
     padding: 20px 0px 0px 20px;
     float: left;
+    display: contents;
 }
 
 #content-main-right {
@@ -354,6 +367,7 @@ ul#success-slide a:hover span.success-story-text {
     font-size: 50pt;
     font-weight: 700;
     font-family: Candara;
+    margin-top: -10px;
 }
 
 #content-main-text {
@@ -363,6 +377,16 @@ ul#success-slide a:hover span.success-story-text {
 
 #content-main-text > h2 {
     margin-top: -5px;
+}
+
+#program-links-nav-mobile {
+    visibility: collapse;
+    display: none;
+}
+
+#left-menu-collapse {
+    visibility: collapse;
+    display: none;
 }
 
 .link-group {
@@ -387,12 +411,23 @@ ul#success-slide a:hover span.success-story-text {
     .program-links-square > .list-group {visibility: hidden; display: none;}
     .program-links-square > h4 {visibility: hidden; display: none;}
     .program-icon {visibility: hidden; display: none;}
-    .program-links-square > a.btn {all: none;}
+    .program-links-square > a.btn {all: unset;}
     .program-links-square > a.btn-default:link, a.btn-default:hover, a.btn-default:active, a.btn-default:focus, a.btn-default:visited {position: relative; float: left; height: 175px; width: 175px; margin: -5px 0px 0px -5px; background: none; z-index: 100;}
     .programs-more {visibility: hidden; height: 175px; width: 175px;}
     .program-links-square-mobile {visibility: visible; display: normal; height: 175px; width: 175px; margin: 0px 0px -185px -5px;}
     .program-links-square-mobile > h4 {text-align: center; font-weight: bold;}
-    .program-icon-mobile {max-height: 100px; max-width: 100px; vertical-align:middle; margin: -30px 0px 0px 38px;}
+    .program-icon-mobile {max-height: 100px; max-width: 100px; vertical-align: middle; margin: -30px 0px 0px 38px;}
     #success-story-widget {visibility: hidden; display: none;}
+    #photo-header {width: 100%; height: 200px;}
+    #program-links-nav {visibility: hidden; display: none;}
+    #program-links-nav-mobile {visibility: visible; display: unset;}
+    #mobile-nav-collapse {}
+    #mobile-nav-collapse-btn {width: 100%; height: 45px; background: rgb(255, 255, 255); background: rgba(255, 255, 255, .9); margin-top: -75px; padding: 0px; border-radius: 0px;}
+    #mobile-nav-collapse-btn > img {height: 30px;}
+    #page-content {}
+    #left-menu-collapse {visibility: visible !important; display: unset !important; float: right; position: relative; z-index: 100; margin: 10px;}
+    #content-left-menu {margin: 0px 0px 0px 0px; padding: 10px; width: 100%;}
+    #content-main-right {text-wrap: normal; overflow-wrap: break-word; float: none; white-space: normal; width: 100%;}
+    #content-main-right > h1 {font-size: 40pt;}
     #footer-quicklinks > div.list-group > a.list-group-item > img {max-width: 250px;}
     #equal-housing-icon {float: right; margin-top: -40px; width: 40px;}
