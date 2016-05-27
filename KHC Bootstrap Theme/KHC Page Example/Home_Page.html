@@ -12,6 +12,17 @@
     <link rel="stylesheet" href="../css/fonts/calibri.css">
 </head>
 <body>
+    <div id="fb-root"></div>
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.6&appId=248392412183313";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script><!--Facebook SDK Loader-->
+
     <nav class="navbar navbar-default navbar-fixed-top top-nav-green" role="navigation">
         <div class="container">
             <div class="container-static">
@@ -134,6 +145,7 @@
                 <ul class="nav nav-tabs">
                     <li class="active"><a href="#news" data-toggle="tab">What's New?</a></li>
                     <li class=""><a href="#rates" data-toggle="tab">Today's Rates</a></li>
+                    <li class=""><a href="#social" data-toggle="tab">Social Media</a></li>
                 </ul>
                 <div id="news-tab" class="tab-content">
                     <div class="tab-pane fade active in" id="news">
@@ -164,7 +176,7 @@
                         <div class="alert alert-warning">
                             <p>Rates subject to change without notice.</p>
                         </div>
-                        <h4>Scondary Market Interest Rates - 45 Day Lock</h4>
+                        <h4>Secondary Market Interest Rates - 45 Day Lock</h4>
                         <table class="table table-hover table-condensed">
                             <thead>
                                 <tr>
@@ -192,6 +204,13 @@
                             </tbody>
                         </table>
                         <a href="#" class="btn btn-primary">Click here for full rate list</a>
+                    </div>
+                    <div id="social" class="tab-pane fade fb-page" data-href="https://www.facebook.com/KYHousing" data-width="380" data-height="425" data-tabs="timeline" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false">
+                        <div class="fb-xfbml-parse-ignore">
+                            <blockquote cite="https://www.facebook.com/KYHousing">
+                                <a href="https://www.facebook.com/KYHousing">Kentucky Housing Corporation</a>
+                            </blockquote>
+                        </div> <!-- Fallback for Facebook Plugin -->
                     </div>
                 </div>
             </div><!-- News -->
@@ -363,6 +382,6 @@
     <script src="../js/custom.js"></script>
     <script type="text/javascript">/* <![CDATA[ */(function (d, s, a, i, j, r, l, m, t) { try { l = d.getElementsByTagName('a'); t = d.createElement('textarea'); for (i = 0; l.length - i; i++) { try { a = l[i].href; s = a.indexOf('/cdn-cgi/l/email-protection'); m = a.length; if (a && s > -1 && m > 28) { j = 28 + s; s = ''; if (j < m) { r = '0x' + a.substr(j, 2) | 0; for (j += 2; j < m && a.charAt(j) != 'X'; j += 2) s += '%' + ('0' + ('0x' + a.substr(j, 2) ^ r).toString(16)).slice(-2); j++; s = decodeURIComponent(s) + a.substr(j, m - j) } t.innerHTML = s.replace(/</g, '<').replace(/>/g, '>'); l[i].href = 'mailto:' + t.value } } catch (e) { } } } catch (e) { } })(document);/* ]]> */</script>
     <script type="text/javascript">$(function () { $('[data-toggle="tooltip"]').tooltip() })</script>
-
+    
 </body>
 </html>
