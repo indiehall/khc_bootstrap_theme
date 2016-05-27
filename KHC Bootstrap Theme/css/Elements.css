@@ -310,34 +310,49 @@ ul#success-slide a:hover span.success-story-text {
 
 #photo-header {
     width: 100%;
-    height: 300px;
+    max-height: 300px;
     border: 0px none;
+    margin-bottom: 20px;
     overflow: hidden;
-    /*margin-top: -35px;*/
+    box-shadow: 0px 1px 2px rgb(185, 185, 185);
+    box-shadow: 0px 1px 2px rgba(0,0,0,0.2);
 }
 
 #photo-header > img {
     width: 100%;
     background-color: #e7fbff;
-    margin-top: -15%;
 }
 
 #program-links-nav {
-    height: 43px;
+    min-height: 58px;
     width: 100%;
     background: rgb(255, 255, 255); 
-    background: rgba(255, 255, 255, .9) !important;
-    margin-top: -43px; /*Keep the same as the height of the nav to properly overlay.*/
+    background: rgba(255, 255, 255, .7) !important;
     position: relative;
     z-index: 100;
+    padding: 15px;
 }
+
+#program-links-nav .btn {
+    float: left;
+}
+
+/*#program-links-nav .btn {
+    float: left;
+    margin-right: 37px;
+}
+
+#program-links-nav .btn:last-of-type {
+    margin-right: 0px;
+} <!-- Justified Positioning -->*/
 
 #program-links-nav > a {
     color: #000000;
 }
 
 #program-links-nav > a:hover {
-    background-color: #FFFFFF;
+    background: rgb(255, 255, 255); 
+    background: rgba(255, 255, 255, .7);
 }
 
 #program-links-nav > a.active {
@@ -436,15 +451,15 @@ ul#success-slide a:hover span.success-story-text {
     .program-links-square-mobile > h4 {text-align: center; font-weight: bold;}
     .program-icon-mobile {max-height: 100px; max-width: 100px; vertical-align: middle; margin: -30px 0px 0px 38px;}
     #success-story-widget {visibility: hidden; display: none;}
-    #photo-header {width: 100%; height: 200px;}
+    #photo-header {display: none; visibility: hidden;}
     #program-links-nav {visibility: hidden; display: none;}
     #program-links-nav-mobile {visibility: visible; display: unset;}
-    #mobile-nav-collapse {}
-    #mobile-nav-collapse-btn {width: 100%; height: 45px; background: rgb(255, 255, 255); background: rgba(255, 255, 255, .9); margin-top: -75px; padding: 0px; border-radius: 0px;}
+    #mobile-nav-collapse {background: rgb(255, 255, 255); background: rgba(255, 255, 255, .7); margin-bottom: 0px;}
+    #mobile-nav-collapse-btn {width: 100%; height: 45px; background: rgb(255, 255, 255); background: rgba(255, 255, 255, .9); padding: 0px; border-radius: 0px;}
     #mobile-nav-collapse-btn > img {height: 30px;}
     #page-content {}
-    #left-menu-collapse {visibility: visible !important; display: unset !important; float: right; position: relative; z-index: 100; margin: 10px;}
-    #content-left-menu {margin: 0px 0px 0px 0px; padding: 10px; width: 100%;}
+    #left-menu-collapse {visibility: visible !important; display: unset !important; position: relative; z-index: 100; margin: 15px 15px 0px 15px;}
+    #content-left-menu {margin: 0px 0px 0px 0px; padding: 10px; width: 100%; box-shadow: inset 0px 1px 2px rgb(185, 185, 185); box-shadow: inset 0px 1px 2px rgba(0,0,0,0.2); border-bottom: 1px #FFFFFF solid;}
     #content-main-right {text-wrap: normal; overflow-wrap: break-word; float: none; white-space: normal; width: 100%;}
     #content-main-right > h1 {font-size: 40pt;}
     #footer-quicklinks > div.list-group > a.list-group-item > img {max-width: 250px;}
